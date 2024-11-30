@@ -1,0 +1,29 @@
+NAME:VIVEK R
+DESCRIPTION:
+The MP3 Tag Reader is a command-line tool that allows users to read and edit the ID3 tags of MP3
+D3 tags store metadata such as title, artist, album, year, genre, and comments for an MP3 file. 
+This program supports reading and modifying these tags for files in MP3 format
+It offers a simple interface to modify specific metadata like the year, title, artist, album, music genre, and comments.
+
+sample input:: 
+1. Reading MP3 Tags
+./a.out -v sample.mp3
+
+sample output:
+TITLE    :   yo yo honey singh
+ARTIST   :   Yo Yo Honey Singh - [SongsPk.CC]
+ALBUM    :   Yaariyan
+YEAR     :   2011
+MUSIC    :   Bollywood Music - [SongsPk.CC]
+COMMENT  :   engDownloaded From SongsPk.CC
+
+2.Editing MP3 Tags
+
+sample input:
+./a.out -e -y 2021 sample.mp3
+
+sample output:
+YEAR: 2021
+YEAR CHANGED SUCCESSFULLY
+
+
